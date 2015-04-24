@@ -105,7 +105,6 @@ class BCSConnection(ConnectionUserAndKey):
         name_list = path.split('/')
         while '' in name_list:
             name_list.remove('')
-        #print name_list,path
 
         if 0 == len(name_list):
             bucket_name = ''
