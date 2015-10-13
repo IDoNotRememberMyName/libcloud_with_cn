@@ -44,7 +44,8 @@ class Provider(object):
     :cvar NIMBUS: Nimbus.io driver
     :cvar LOCAL: Local storage driver
     :cvar ALI_OSS : Ali object storage service
-    :cvar BAIDU: Baidu network disk
+    :cvar BAIDU: Baidu object storage service
+    :cvar QINIU: QiNiu object storage service
     """
     DUMMY = 'dummy'
     S3 = 's3'
@@ -63,6 +64,7 @@ class Provider(object):
     KTUCLOUD = 'ktucloud'
     ALI_OSS = 'ali_oss'
     BAIDU = 'baidu'
+    QINIU = 'qiniu'
 
     # Deperecated
     CLOUDFILES_US = 'cloudfiles_us'

@@ -51,7 +51,9 @@ DRIVERS = {
     Provider.ALI_OSS:
     ('libcloud.storage.drivers.ali_oss', 'OSSStorageDriver'),
     Provider.BAIDU:
-    ('libcloud.storage.drivers.baidu', 'BCSStorageDriver'),
+    ('libcloud.storage.drivers.baidu', 'BOSStorageDriver'),
+    Provider.QINIU:
+    ('libcloud.storage.drivers.qiniu', 'QiNiuStorageDriver'),
 
     # Deprecated
     Provider.CLOUDFILES_US:
